@@ -59,7 +59,7 @@ For simplicity and easy sharing, the current version combines all code into a si
 - **JavaScript (ES6):** DOM manipulation, event handling, and calculation logic using a safe implementation of `eval()`.
 
 ### 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/vedantsahoo/simple-calculator/issues) if you want to contribute.
 
 Some ideas for future improvements:
 - Add keyboard support (typing numbers instead of just clicking).
