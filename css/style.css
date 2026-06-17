@@ -1,0 +1,58 @@
+/* CSS: The Styling */
+    body { 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      height: 100vh; 
+      background-color: #f0f2f5; 
+      margin: 0; 
+    }
+    
+    .calculator { 
+      background: #77757e; 
+      padding: 20px; 
+      border-radius: 16px; 
+      width: 320px; 
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2); 
+    }
+    
+    .display { 
+      background: #1111118c; 
+      color: #fff; 
+      text-align: right; 
+      font-size: 2.5rem; 
+      padding: 20px; 
+      border-radius: 10px; 
+      margin-bottom: 20px; 
+      min-height: 80px;
+      overflow: hidden;
+      word-wrap: break-word;
+    }
+    
+    .buttons { 
+      display: grid; 
+      grid-template-columns: repeat(4, 1fr); 
+      gap: 12px; 
+    }
+    
+    .btn { 
+      border: none; 
+      padding: 20px; 
+      font-size: 1.5rem; 
+      border-radius: 10px; 
+      cursor: pointer; 
+      background: #1111118c; 
+      color: white; 
+      transition: transform 0.1s; 
+    }
+    
+    .btn:active { 
+      transform: scale(0.95); 
+    }
+    
+    .operator { color: #ff9500; }
+    .clear { color: #ff3b30; }
+    .equals { background: #ff9500; color: white; }
+    
+    /* Layout helpers */
+    .span-2 { grid-column: span 2; }
